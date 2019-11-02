@@ -1,0 +1,18 @@
+<suite name="Regression Suite" parallel="tests" thread-count="2"> 
+    
+    <parameter name="browser" value="chrome"></parameter>
+    
+    <test name="regression test">
+        
+        <classes>
+            
+          <!--   <class name="com.amazon.tests.home.SearchPageTests"></class> -->
+            
+            <class name="com.amazon.tests.home.CartPageTests"></class>
+            
+        </classes>
+        
+    </test>
+    
+
+</suite>
